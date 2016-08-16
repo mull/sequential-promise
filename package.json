@@ -1,6 +1,6 @@
 {
   "name": "sequential-promises",
-  "version": "1.0.1-0",
+  "version": "1.0.0-0",
   "description": "Run promises in sequential order in a simple fashion",
   "main": "index.js",
   "scripts": {
