@@ -1,0 +1,22 @@
+{
+  "name": "sequential-promises",
+  "version": "1.0.1-0",
+  "description": "Run promises in sequential order in a simple fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/test.js"
+  },
+  "keywords": [
+    "promises",
+    "es6-promise",
+    "es6",
+    "sequence",
+    "sequential"
+  ],
+  "author": "Emil Ahlbäck",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2"
+  }
+}
