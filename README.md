@@ -15,10 +15,7 @@ Which one to use boils down to:
 
 ## TODO
 - better example of exception handling
-<<<<<<< HEAD
 - tests for when promise rejects
-=======
->>>>>>> e315e0bd256629e993bfdebac386377cd963a645
 - option to stop on first failure
 
 
