@@ -2,10 +2,11 @@
   "name": "sequential-promise",
   "version": "1.0.1",
   "description": "Run promises in sequential order in a simple fashion",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/mull/sequential-promise",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/test.js"
+    "test": "./node_modules/.bin/mocha tests/test.js",
+    "build": "mkdir -p dist/ && ./node_modules/.bin/babel index.js > dist/index.js"
   },
   "keywords": [
     "promises",
@@ -17,7 +18,13 @@
   "author": "Emil Ahlbäck",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
     "expect": "^1.20.2",
     "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "babel": "^6.5.2"
   }
 }
