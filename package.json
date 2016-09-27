@@ -1,6 +1,6 @@
 {
   "name": "sequential-promise",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Run promises in sequential order in a simple fashion",
   "main": "dist/index.js",
   "repository": "https://github.com/mull/sequential-promise",
